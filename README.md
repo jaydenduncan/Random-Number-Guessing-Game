@@ -4,13 +4,15 @@ This project generates a random number and allows the user to see how many tries
 ## Table of Contents
 * [Project Info](#project-info)
   * [User Input and Errors](#user-input-and-errors)
-* Installation
+* [Installation](#installation) 
   * [Software Requirements](#software-requirements)
   * [Netbeans Download](#netbeans-download)
   * [Java Software Installation](#java-software-installation)
     * [Windows and Linux](#windows-and-linux)
     * [OS X](#os-x)
     * [Platform-Independent Package](#platform-independent-package)
+* [Usage](#usage)
+* [License](#license)
   
 ---
 
@@ -50,14 +52,14 @@ In the project, once the user enters a word or character for input instead of an
 
 ---
 
-## Installation
+## Installation 
 ### Software Requirements
-* [Java SE Development Kit (JDK) 8](#http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [Netbeans IDE](#https://netbeans.org/downloads/)
+* [Java SE Development Kit (JDK) 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Netbeans IDE](https://netbeans.org/downloads/)
   * *Select Java SE or Java EE for the language*
 
 ### Netbeans Download
-* Go to the [Netbeans](#https://netbeans.org/downloads/) website and select a Java language and the platform
+* Go to the [Netbeans](https://netbeans.org/downloads/) website and select a Java language and the platform
 * Click 'Download' for the correct language and platform
 * Save installer file to your system
 
@@ -105,9 +107,9 @@ To manually add a path to the JDK installation directory:
    ```
    C:\Program Files\Java\jdk1.8.0
    ```
-
----
 3. Save netbeans.conf file and run executable in the netbeans/file directory
+
+--- 
 
 ## Usage
 To clone a repository on Github:
@@ -118,5 +120,8 @@ To clone a repository on Github:
    ```
    $ git clone https://hostname/USERNAME/REPOSITORY
    ``` 
-After retrieving the files from the repository, the java file can be accessed in Netbeans. See the [Netbeans Quick Start Guide](#https://netbeans.org/kb/docs/java/quickstart.html) for information on how to run a project.
+After retrieving the files from the repository, the java file can be accessed in Netbeans. See the [Netbeans Quick Start Guide](https://netbeans.org/kb/docs/java/quickstart.html) for information on how to run a project.
+
+---
+
 ## License
