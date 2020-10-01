@@ -4,6 +4,15 @@ This project generates a random number and allows the user to see how many tries
 ## Table of Contents
 * [Project Info](#project-info)
   * [User Input and Errors](#user-input-and-errors)
+* Installation
+  * [Software Requirements](#software-requirements)
+  * [Netbeans Download](#netbeans-download)
+  * [Java Software Installation](#java-software-installation)
+    * [Windows and Linux](#windows-and-linux)
+    * [OS X](#os-x)
+    * [Platform-Independent Package](#platform-independent-package)
+  
+---
 
 ## Project Info
 To begin this project, all classes from the 'java.util' package are imported. The only class that is used in this project from that package is the 'Scanner' class, which is used for input purposes. Alternatively, the asterisk character following the package name could have been replaced with 'Scanner':
@@ -39,8 +48,75 @@ catch(Exception e){
 ```
 In the project, once the user enters a word or character for input instead of an integer, the project goes to the catch block in the start method and outputs an error message and does any other code statements in that block. The user is going to have to try again and enter a valid input token after receiving the error message, so the start method is recalled in the catch block, so not only will the user re-enter input, but the numberGame function will be 'tried' again in case the user enters another invalid input token. More input is checked in the numberGame method but in a much simpler form of an if statement. The program checks to see if the integer entered by the user is less than 1 or greater than 100, and if so, an error message is printed and the 'continue' keyword follows it to start the do-while loop over again without incrementing the number of guesses.
 
-## Installation
-### Installing Git
+---
 
+## Installation
+### Software Requirements
+* [Java SE Development Kit (JDK) 8](#http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [Netbeans IDE](#https://netbeans.org/downloads/)
+  * *Select Java SE or Java EE for the language*
+
+### Netbeans Download
+* Go to the [Netbeans](#https://netbeans.org/downloads/) website and select a Java language and the platform
+* Click 'Download' for the correct language and platform
+* Save installer file to your system
+
+### Java Software Installation
+
+#### Windows and Linux
+1. Run the Installer
+  * Windows: Installer executable file has .exe file extension
+  * Linux: Installer executable file has .sh file extension
+  
+    For Linux, use this command to make the installer files executable:
+    ```
+    chmod +x <installer-file-name>
+    ```
+    Type this command to run the installer:
+    ```
+    /<installer-file-name>
+    ```
+2. Click 'Next' at the installation wizard
+3. Review the license agreement, accept it, and click 'Next'
+4. Accept default installation directory for Netbeans IDE or choose another one
+5. Accept JDK installation to use with Netbeans and then click 'Next'
+6. Verify all information on the summary page and then click 'install' to start installation
+7. Click 'Finish' after the installation is complete
+
+#### OS X
+1. After downloading Netbeans, run the installer file with the .dmg file extension
+2. Double-click the package icon with the .pkg file extension
+3. At the "This package will run a program to determine if the software can be installed" dialog box, click 'Continue'
+4. Click 'Continue' at the Introduction page
+5. Review license agreement, accept it, and click 'Continue'
+6. Select the drive at the 'Select a Destination' page, and click 'Continue'
+7. Select the products that will be installed and enter administrator's name and password
+8. Click 'OK' to begin the installation
+
+#### Platform-Independent Package
+1. After downloading the platform-independent ZIP file, extract it to any folder
+2. Run the executable file in the netbeans/bin directory 
+3. Accept License Agreement
+4. Click 'Next' to start the Netbeans IDE installation
+
+To manually add a path to the JDK installation directory:
+1. Open netbeans.conf file found in the netbeans/etc directory, in a text editor
+2. Enter location of compatible JDK installation for netbeans_jdkhome option:
+   ```
+   C:\Program Files\Java\jdk1.8.0
+   ```
+
+---
+3. Save netbeans.conf file and run executable in the netbeans/file directory
 
 ## Usage
+To clone a repository on Github:
+1. Under repository name, click 'Clone or Download'
+2. Copy the clone URL in the 'Clone with HTTPs' section
+3. Open Git Bash and change the current working directory to the location you want it to be in
+4. Type 'git clone' followed by the URL and then press **Enter**
+   ```
+   $ git clone https://hostname/USERNAME/REPOSITORY
+   ``` 
+After retrieving the files from the repository, the java file can be accessed in Netbeans. See the [Netbeans Quick Start Guide](#https://netbeans.org/kb/docs/java/quickstart.html) for information on how to run a project.
+## License
