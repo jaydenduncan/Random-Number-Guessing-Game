@@ -54,6 +54,7 @@ In the project, once the user enters a word or character for input instead of an
 ---
 
 ## Installation 
+The following are a few basic instructions for downloading Netbeans to your local machine for Java. For more information on the installation of any version of this IDE to your computer, refer to the [Documentation Section](https://netbeans.org/kb/?utm_source=netbeans&utm_campaign=welcomepage) of the [Netbeans website](https://netbeans.org/).
 ### Software Requirements
 * [Java SE Development Kit (JDK) 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Netbeans IDE](https://netbeans.org/downloads/)
@@ -121,7 +122,7 @@ To clone a repository on Github:
    ```
    $ git clone https://hostname/USERNAME/REPOSITORY
    ``` 
-After retrieving the files from the repository, the java file can be accessed in Netbeans. See the [Netbeans Quick Start Guide](https://netbeans.org/kb/docs/java/quickstart.html) for information on how to run a project. Also, see the [Project Info](#project-info) section earlier in this readme.md file for information on how this project works.
+After retrieving the files from the repository, the java file can be accessed in Netbeans. See the [Netbeans Quick Start Guide](https://netbeans.org/kb/docs/java/quickstart.html) for information on how to run a project. Also, see the [Project Info](#project-info) section earlier in this README.md file for information on how this project works.
 
 ---
 
